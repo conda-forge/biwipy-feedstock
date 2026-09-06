@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.9"
-  version: "0.11.0"
+  version: "0.12.0"
 
 package:
   name: biwipy
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/biwipy/biwipy-${{ version }}.tar.gz
-  sha256: 369d0c43e1c86c74d922d114d56b92223876a54070f603faf5792166e6349418
+  sha256: 75c179c2b480b6a541c39c28333903a574c1125f05dda524960b219bdc627410
 
 build:
   number: 0
